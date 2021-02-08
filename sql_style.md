@@ -36,7 +36,7 @@ There are various existing SQL style guides that have been drawn on in making th
 - For any primary key ID field, include the table name in the field name, e.g. ```users.UserID```. For all other fields avoid using the table name as the prefix to the field name, e.g. ```users.Address``` instead of ```users.UserAddress```
 - Strings should be declared using single-quotes
 - Numeric values and NULL should NOT be enclosed in quotes
-- Use data-type ```TINYINT(1)``` for status fields, and follow them with a ```COMMENT '0=Inactive, 1=Active'``` of the relevant status code settings
+- Use data-type ```TINYINT(1)``` for status fields, and follow them with a ```COMMENT '0=Inactive, 1=Active'``` detailing the relevant status code settings
 
 ## 5) Table and View Creation
 - Use the following format and layout for creating tables in a SQL file:
@@ -59,7 +59,7 @@ CREATE VIEW IF NOT EXISTS `messages_view` AS SELECT
 
 ## 6) Select, Insert and Update SQL commands in PHP
 - Use the PHP PDO Class for connecting by PHP to the SQL Server and retrieving/updating data
-- Create a SQL variable with the relevant SQL commands and then use the PDO methods to execute this on the server
+- Create a ```$sql``` variable with the relevant SQL commands and then use the PDO methods to execute this on the server
 - An example SELECT SQL statement would be:
 ```sql
 $sql = "SELECT *

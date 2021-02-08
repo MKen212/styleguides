@@ -15,7 +15,7 @@ There are various existing HTML and CSS style guides that have been drawn on in 
 - Use ```https://``` for all links to hrefs, images, source files, @imports, etc.
 - Use lowercase for all HTML element names, attributes and attribute values, and for all CSS selectors, properties and property values
 - Use lowercase-with-hyphens for all class names
-- Use camelCase for all ID and name attributes
+- Use camelCase for all ```id=``` and ```name=``` attributes
 - Spaces and new lines should be used to align code within blocks to improve read-ability
 - There should be no trailing whitespace at the end of lines
 
@@ -28,7 +28,7 @@ There are various existing HTML and CSS style guides that have been drawn on in 
 - Omit the ```type``` attribute for style sheets (unless not using CSS) and scripts (unless not using JavaScript)
 
 ## 3) HTML layout
-- Always declare the HTML5 document type, language and characterset at the top of the HTML document
+- Always declare the HTML5 document type, language and charset at the top of the HTML document
 - The overall layout of HTML files should be as follow:
 ```html
 <!DOCTYPE html>
