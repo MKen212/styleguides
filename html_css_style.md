@@ -14,7 +14,8 @@ There are various existing HTML and CSS style guides that have been drawn on in 
 - HTML and CSS code must be indented by 2 spaces for each indent level
 - Use ```https://``` for all links to hrefs, images, source files, @imports, etc.
 - Use lowercase for all HTML element names, attributes and attribute values, and for all CSS selectors, properties and property values
-- Use camelCase for ID and class names
+- Use lowercase-with-hyphens for all class names
+- Use camelCase for all ID and name attributes
 - Spaces and new lines should be used to align code within blocks to improve read-ability
 - There should be no trailing whitespace at the end of lines
 
@@ -57,7 +58,7 @@ There are various existing HTML and CSS style guides that have been drawn on in 
 - Within a CSS file, always put each rule in a separate block, with the selector name followed by a space and curly-brackets, e.g. ```body {```, and each declaration being on a separate line in the format of ```property: value;```, ending with a semi-colon (even for the last item)
 - Include a blank line between each block
 - Avoid qualifying ID and Class names with type selectors and avoid unnecessary ancestor selectors to improve performance
-- Alphabetise declarations within each block
+- Group declarations within each block by similar actions, e.g. top, right, bottom, left together to specify the positions of an element
 
 ## 5) CSS layout
 - An example layout of a CSS files should be as follow:

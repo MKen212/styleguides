@@ -18,7 +18,7 @@ There are various existing SQL style guides that have been drawn on in making th
 - There should be no trailing whitespace at the end of lines
 - Opening and Closing brackets should be tight to their contents and not have additional spaces within the brackets, e.g. ```FOREIGN KEY (`UserID`) ```
 - Spaces and new lines should be used to align code to improve read-ability, with each main keyword starting a new line
-- Use double-dash for single-line comments, e.g. ```-- Comment```
+- Use double-dash for single-line comments, e.g. ```-- Comment``` and ```/* ... */``` for multi-line comments
 
 ## 3) Operators
 - Put a space before and after all operators, e.g. ```WHERE `UserID` = '1' ```
